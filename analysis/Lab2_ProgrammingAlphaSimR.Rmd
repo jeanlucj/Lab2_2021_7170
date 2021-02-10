@@ -86,7 +86,7 @@ addToREADME(c("The packages used in this script are:", "Package, Version, Built"
 apply(packages_info, 1, function(vec) addToREADME(paste(vec, collapse=" ")))
 addToREADME("")
 ```
-Hyperlink the [README file](../README.md) to the report.  That makes it easy to find.  
+Hyperlink the [README file](README.md) to the report.  That makes it easy to find.  
 
 ### Set random seed  
 AlphaSimR generates many random numbers (e.g., to simulate Mendelian random segregation).  If you want the result of the analysis to come out the same each time (there are pros and cons) you need to set the random seed. Note that `workflowr` does this by default. If you are not using that package, then be explicit.  
