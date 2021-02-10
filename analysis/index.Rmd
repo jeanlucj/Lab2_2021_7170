@@ -8,4 +8,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+`workflowr` websites to illustrate reproducible programming and some features of the `AlphaSimR` breeding simulation package.
+
+[Link to the main Rmarkdown output](./Lab2_ProgrammingAlphaSimR.html)  
