@@ -43,8 +43,7 @@ Some other things that matter to me to ensure communicability and reproducibilit
   i) The main README.md file should contain information about the conditions under-which the script was run  
   ii) I like the script to have a predictable strucure: load and document the packages used, if there is a stochastic component, set the random seed, set and document the parameter values that will affect the script output  
   iii) Use a consistent directory structure. Happily, such a consistent structure is enforced by `workflowr`  
-  ![Standard script directory organization](./FileStructure.jpg)  
-  iv) Use the package `here` to make file locations relative to the base project folder
+  iv) Use the package `here` to make file locations relative to the base project folder  
 
 2. AlphaSimR  
 `AlphaSimR` is a package to simulate breeding populations and tasks. It is not completely intuitive nor completely well-documented. We will want to use it ultimately to optimize breeding schemes. Hopefully, we will be able to contrast it's output with the output of deterministic analytic optimization  
